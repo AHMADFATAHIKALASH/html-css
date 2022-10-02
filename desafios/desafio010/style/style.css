@@ -47,6 +47,7 @@ header{
     min-height: 150px;
     
     
+    
 }
 header > h1{
     color: white;
@@ -58,7 +59,7 @@ header > h1{
 }
 header > p{
     color: white;
-    padding: 20px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
 }
 nav{
