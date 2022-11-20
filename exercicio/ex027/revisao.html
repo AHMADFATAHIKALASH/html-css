@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Formulário </title>
+</head>
+<body>
+    <h1>Revisão Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p><label for="inome">Nome</label>:
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome</label>:
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+   
+    <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" autocomplete="username" placeholder="seu nome completo">
+
+    </p>
+    <p>
+        <label for="isen">senha:</label>
+        <input type="password" name="sen" id="isen" autocomplete="current-password" placeholder="digite sua senha de 8 numeros" maxlength="8" required>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+    </p>
+    
+   </form>
+    
+</body>
+</html>
