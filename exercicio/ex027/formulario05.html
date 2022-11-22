@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Test de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+        <label for="ilist">Estado:</label>
+        <select name="list" id="ilist">
+            <option value="" selected>--Escolhe--</option>
+            <optgroup label="Região Sudeste">
+                <option value="SP">SÃO PAULO</option>
+                <option value="RJ">RIO DE JANEIRO</option>
+                <option value="MG">MINAS GERAIS</option>
+            </optgroup>
+           <optgroup label="Região Nordeste">
+                <option value="MA">MARANHÃO</option>
+                <option value="PE">PERNAMBUCO</option>
+                <option value="RN">RIO GRANDE DO NORTE</option>
+            </optgroup>
+        </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="iliprof">
+            <datalist id="iliprof">
+                <option value="AD">ADMINISTRADOR</option>
+                <option value="PROF">PROFESSOR</option>
+                <option value="DEV">DESENVOLVEDOR</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imes">Mensagem:</label><br>
+            <textarea name="mes" id="imes" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
