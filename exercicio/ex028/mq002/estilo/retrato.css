@@ -5,7 +5,7 @@ html, body{
     height: 100vh;
     background: url(../imagens/cev-portrait.jpg);
     
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
     
