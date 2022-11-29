@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+
+}
+header{
+    background-color: darkgray;
+}
+
+header h1{
+    text-align: center;
+
+}
+ li  >a{
+    text-decoration: none;
+    background-color: rgba(68, 68, 68, 0.623);
+    border-radius: 50px;
+    color: white;
+}
+a::{
+    text-decoration: underline;
+    color: black;
+}
