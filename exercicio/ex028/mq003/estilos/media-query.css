@@ -1,6 +1,30 @@
 @charset "UTF-8";
 
+
+
 @media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    body{
+        background: url(../imagens/back-print.jpg);
+    }
+    main{
+        border: 2px black solid;
+    }
+    main h1{
+        color: black;
+        text-shadow: none;
+        
+
+    }
+    
+img#phone{display: none;}
+img#print{display: block;}
+img#tablet{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
 
 }
 
